@@ -108,6 +108,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Views\Admin\UserStories\_OwnerTab.cshtml" />
     <Content Include="Views\Admin\UserStories\_AdminTab.cshtml" />
+    <Content Include="Views\Admin\UserStories\_Registration-Errors.cshtml" />
     <None Include="Views\Admin\UserStories\_Registration.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
