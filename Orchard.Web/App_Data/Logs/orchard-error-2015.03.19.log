@@ -1,0 +1,91 @@
+2015-03-19 17:37:24,741 [38] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/listing/registration
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Views\Site\Registration\Index.cshtml(16): error CS0746: Invalid anonymous type member declarator. Anonymous type members must be declared with a member assignment, simple name or member access.
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.<>c__DisplayClass7.<FindView>b__5(ViewContext viewContext, TextWriter writer, IViewDataContainer viewDataContainer) in f:\Orchard\www.showdigs.co.uk\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 59
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.LayoutView.Render(ViewContext viewContext, TextWriter writer) in f:\Orchard\www.showdigs.co.uk\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 90
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-19 18:15:11,494 [9] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/listing/registration
+System.InvalidOperationException: The view 'Registration' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Registration.cshtml
+~/Themes/ivNet.ShowDigs/Views/Registration.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Registration.cshtml
+~/Themes/PJS.Bootstrap/Views/Registration.cshtml
+~/Core/ivNet.Listing/Views/Site/Registration.cshtml
+~/Modules/ivNet.Listing/Views/Site/Registration.cshtml
+~/Themes/ivNet.Listing/Views/Site/Registration.cshtml
+~/Core/Reports/Views/Registration.cshtml
+~/Core/Dashboard/Views/Registration.cshtml
+~/Modules/TinyMce/Views/Registration.cshtml
+~/Modules/Orchard.Taxonomies/Views/Registration.cshtml
+~/Modules/Orchard.Tags/Views/Registration.cshtml
+~/Modules/Orchard.Scripting/Views/Registration.cshtml
+~/Modules/Orchard.Recipes/Views/Registration.cshtml
+~/Modules/Orchard.Projections/Views/Registration.cshtml
+~/Modules/Orchard.Pages/Views/Registration.cshtml
+~/Modules/Orchard.Packaging/Views/Registration.cshtml
+~/Modules/Orchard.Modules/Views/Registration.cshtml
+~/Modules/Orchard.Media/Views/Registration.cshtml
+~/Core/Containers/Views/Registration.cshtml
+~/Modules/Orchard.ImageEditor/Views/Registration.cshtml
+~/Modules/Orchard.Fields/Views/Registration.cshtml
+~/Modules/Orchard.ContentTypes/Views/Registration.cshtml
+~/Modules/Orchard.Roles/Views/Registration.cshtml
+~/Modules/Orchard.Users/Views/Registration.cshtml
+~/Modules/Orchard.Workflows/Views/Registration.cshtml
+~/Modules/Orchard.Comments/Views/Registration.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Registration.cshtml
+~/Modules/Orchard.ContentPicker/Views/Registration.cshtml
+~/Core/Contents/Views/Registration.cshtml
+~/Modules/Orchard.Blogs/Views/Registration.cshtml
+~/Core/Shapes/Views/Registration.cshtml
+~/Core/Navigation/Views/Registration.cshtml
+~/Core/Feeds/Views/Registration.cshtml
+~/Modules/Orchard.Widgets/Views/Registration.cshtml
+~/Modules/Orchard.Themes/Views/Registration.cshtml
+~/Modules/Orchard.PublishLater/Views/Registration.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Registration.cshtml
+~/Core/Title/Views/Registration.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Registration.cshtml
+~/Modules/Orchard.Forms/Views/Registration.cshtml
+~/Modules/Orchard.OutputCache/Views/Registration.cshtml
+~/Modules/Orchard.Autoroute/Views/Registration.cshtml
+~/Core/Scheduling/Views/Registration.cshtml
+~/Modules/Orchard.Tokens/Views/Registration.cshtml
+~/Modules/Orchard.jQuery/Views/Registration.cshtml
+~/Modules/Orchard.Alias/Views/Registration.cshtml
+~/Core/Common/Views/Registration.cshtml
+~/Core/Settings/Views/Registration.cshtml
+~/Modules/ivNet.Listing/Views/Registration.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)

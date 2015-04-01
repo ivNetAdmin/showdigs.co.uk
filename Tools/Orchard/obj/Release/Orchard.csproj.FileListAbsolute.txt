@@ -1,0 +1,6 @@
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard\bin\Release\Orchard.exe.config
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard\bin\Release\Orchard.exe
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard\bin\Release\Orchard.pdb
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard\obj\Release\Orchard.csprojResolveAssemblyReference.cache
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard\obj\Release\Orchard.exe
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard\obj\Release\Orchard.pdb

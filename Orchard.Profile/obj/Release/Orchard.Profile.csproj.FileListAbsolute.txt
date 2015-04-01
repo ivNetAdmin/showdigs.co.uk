@@ -1,0 +1,7 @@
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Profile\bin\Release\Orchard.Profile.dll
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Profile\bin\Release\Orchard.Profile.pdb
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Profile\bin\Release\nunit.framework.dll
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Profile\bin\Release\TechTalk.SpecFlow.dll
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Profile\obj\Release\Orchard.Profile.csprojResolveAssemblyReference.cache
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Profile\obj\Release\Orchard.Profile.dll
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Profile\obj\Release\Orchard.Profile.pdb

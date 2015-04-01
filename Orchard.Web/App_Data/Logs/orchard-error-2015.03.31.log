@@ -1,0 +1,1000 @@
+2015-03-31 09:51:24,879 [6] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/Admin/Roles/Create
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Roles.Services.RoleService.GetInstalledPermissions()
+   at Orchard.Roles.Controllers.AdminController.Create()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+2015-03-31 14:44:31,392 [12] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/contact
+System.InvalidOperationException: The partial view 'Shared/_EmailForm' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/Contents/Item/Shared/_EmailForm.cshtml
+~/Themes/ivNet.ShowDigs/Views/Shared/_EmailForm.cshtml
+~/Themes/PJS.Bootstrap/Views/Contents/Item/Shared/_EmailForm.cshtml
+~/Themes/PJS.Bootstrap/Views/Shared/_EmailForm.cshtml
+~/Core/Contents/Views/Item/Shared/_EmailForm.cshtml
+~/Modules/Contents/Views/Item/Shared/_EmailForm.cshtml
+~/Themes/Contents/Views/Item/Shared/_EmailForm.cshtml
+~/Core/Reports/Views/Shared/_EmailForm.cshtml
+~/Core/Dashboard/Views/Shared/_EmailForm.cshtml
+~/Modules/TinyMce/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Taxonomies/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Tags/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Scripting/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Recipes/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Projections/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Pages/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Packaging/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Modules/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Media/Views/Shared/_EmailForm.cshtml
+~/Core/Containers/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.ImageEditor/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Fields/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.DesignerTools/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.ContentTypes/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Roles/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Users/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Workflows/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Comments/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.ContentPicker/Views/Shared/_EmailForm.cshtml
+~/Core/Contents/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Blogs/Views/Shared/_EmailForm.cshtml
+~/Core/Shapes/Views/Shared/_EmailForm.cshtml
+~/Core/Navigation/Views/Shared/_EmailForm.cshtml
+~/Core/Feeds/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Widgets/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Themes/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.PublishLater/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Shared/_EmailForm.cshtml
+~/Core/Title/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Forms/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.OutputCache/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Autoroute/Views/Shared/_EmailForm.cshtml
+~/Core/Scheduling/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Tokens/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.jQuery/Views/Shared/_EmailForm.cshtml
+~/Modules/Orchard.Alias/Views/Shared/_EmailForm.cshtml
+~/Core/Common/Views/Shared/_EmailForm.cshtml
+~/Core/Settings/Views/Shared/_EmailForm.cshtml
+~/Modules/ivNet.Mail/Views/Shared/_EmailForm.cshtml
+~/Modules/ivNet.Listing/Views/Shared/_EmailForm.cshtml
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Themes_ivNet_ShowDigs_Views_Content_url_contact_cshtml.Execute() in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Themes\ivNet.ShowDigs\Views\Content-url-contact.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.Render(ShapeDescriptor shapeDescriptor, DisplayContext displayContext, HarvestShapeInfo harvestShapeInfo, HarvestShapeHit harvestShapeHit) in f:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 151
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.<>c__DisplayClass26.<>c__DisplayClass28.<Discover>b__15(DisplayContext displayContext) in f:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 133
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in f:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in f:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in f:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in f:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in f:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in f:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at ASP._Page_Core_Contents_Views_Item_Display_cshtml.Execute() in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Core\Contents\Views\Item\Display.cshtml:line 6
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.<>c__DisplayClass7.<FindView>b__5(ViewContext viewContext, TextWriter writer, IViewDataContainer viewDataContainer) in f:\Orchard\www.showdigs.co.uk\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 59
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.LayoutView.Render(ViewContext viewContext, TextWriter writer) in f:\Orchard\www.showdigs.co.uk\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 90
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 15:49:34,444 [15] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/id = 1
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 15:51:55,143 [12] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/id=7
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 15:55:21,858 [11] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/fz
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:07:39,521 [18] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/DPc1fJgiw2QDaqPmPtowMTfSwMk8iqQq
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:08:10,039 [28] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/DPc1fJgiw2QDaqPmPtowMTfSwMk8iqQq
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:19:55,994 [11] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/uSqxX6ETWlx
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:19:56,080 [7] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/uSqxX6ETWlx
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:20:38,972 [9] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/uSqxX6ETWlx
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:32:21,060 [13] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/3E05E168
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:33:34,814 [15] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/3E05E168316CBE8A09E89E939092713DD60BB9C25333551D7FA03A43050FF18C4C2B3A7CD8E72A1DE2E0
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:48:56,450 [12] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/aHR0cDovL2xvY2FsaG9zdDozMDMzMy9vd25lci9hY3RpdmF0aW9uL1luQnBkbTVsZEdOdmRXdGljRFkxT1RBMQ2
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:51:47,307 [9] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/aHR0cDovL2xvY2FsaG9zdDozMDMzMy9vd25lci9hY3RpdmF0aW9uL1luQnBkbTVsZEdOdmRXdGljRFkxT1RBMQ2
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-03-31 16:53:49,020 [9] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:30333/owner/activation/aHR0cDovL2xvY2FsaG9zdDozMDMzMy9vd25lci9hY3RpdmF0aW9uL1luQnBkbTVsZEdOdmRXdGljRFkxT1RBMQ2
+System.InvalidOperationException: The view 'Activation' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/ivNet.ShowDigs/Views/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/ivNet.Listing/Site/Activation.cshtml
+~/Themes/PJS.Bootstrap/Views/Activation.cshtml
+~/Core/ivNet.Listing/Views/Site/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Site/Activation.cshtml
+~/Themes/ivNet.Listing/Views/Site/Activation.cshtml
+~/Core/Reports/Views/Activation.cshtml
+~/Core/Dashboard/Views/Activation.cshtml
+~/Modules/TinyMce/Views/Activation.cshtml
+~/Modules/Orchard.Taxonomies/Views/Activation.cshtml
+~/Modules/Orchard.Tags/Views/Activation.cshtml
+~/Modules/Orchard.Scripting/Views/Activation.cshtml
+~/Modules/Orchard.Recipes/Views/Activation.cshtml
+~/Modules/Orchard.Projections/Views/Activation.cshtml
+~/Modules/Orchard.Pages/Views/Activation.cshtml
+~/Modules/Orchard.Packaging/Views/Activation.cshtml
+~/Modules/Orchard.Modules/Views/Activation.cshtml
+~/Modules/Orchard.Media/Views/Activation.cshtml
+~/Core/Containers/Views/Activation.cshtml
+~/Modules/Orchard.ImageEditor/Views/Activation.cshtml
+~/Modules/Orchard.Fields/Views/Activation.cshtml
+~/Modules/Orchard.DesignerTools/Views/Activation.cshtml
+~/Modules/Orchard.ContentTypes/Views/Activation.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Activation.cshtml
+~/Modules/Orchard.Roles/Views/Activation.cshtml
+~/Modules/Orchard.Users/Views/Activation.cshtml
+~/Modules/Orchard.Workflows/Views/Activation.cshtml
+~/Modules/Orchard.Comments/Views/Activation.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Activation.cshtml
+~/Modules/Orchard.ContentPicker/Views/Activation.cshtml
+~/Core/Contents/Views/Activation.cshtml
+~/Modules/Orchard.Blogs/Views/Activation.cshtml
+~/Core/Shapes/Views/Activation.cshtml
+~/Core/Navigation/Views/Activation.cshtml
+~/Core/Feeds/Views/Activation.cshtml
+~/Modules/Orchard.Widgets/Views/Activation.cshtml
+~/Modules/Orchard.Themes/Views/Activation.cshtml
+~/Modules/Orchard.PublishLater/Views/Activation.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Activation.cshtml
+~/Core/Title/Views/Activation.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Activation.cshtml
+~/Modules/Orchard.Forms/Views/Activation.cshtml
+~/Modules/Orchard.OutputCache/Views/Activation.cshtml
+~/Modules/Orchard.Autoroute/Views/Activation.cshtml
+~/Core/Scheduling/Views/Activation.cshtml
+~/Modules/Orchard.Tokens/Views/Activation.cshtml
+~/Modules/Orchard.jQuery/Views/Activation.cshtml
+~/Modules/Orchard.Alias/Views/Activation.cshtml
+~/Core/Common/Views/Activation.cshtml
+~/Core/Settings/Views/Activation.cshtml
+~/Modules/ivNet.Mail/Views/Activation.cshtml
+~/Modules/ivNet.Listing/Views/Activation.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)

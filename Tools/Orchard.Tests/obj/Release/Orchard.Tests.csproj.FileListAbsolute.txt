@@ -1,0 +1,11 @@
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\bin\Release\Orchard.Tests.dll
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\bin\Release\Orchard.Tests.pdb
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\bin\Release\Moq.dll
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\bin\Release\nunit.framework.dll
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\bin\Release\Orchard.exe
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\bin\Release\Orchard.pdb
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\bin\Release\Moq.pdb
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\bin\Release\Moq.xml
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\obj\Release\Orchard.Tests.csprojResolveAssemblyReference.cache
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\obj\Release\Orchard.Tests.dll
+E:\Orchard\www.showdigs.co.uk\src\Tools\Orchard.Tests\obj\Release\Orchard.Tests.pdb

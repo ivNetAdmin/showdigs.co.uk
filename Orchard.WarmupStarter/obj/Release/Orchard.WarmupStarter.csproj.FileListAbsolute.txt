@@ -1,0 +1,5 @@
+E:\Orchard\www.showdigs.co.uk\src\Orchard.WarmupStarter\bin\Release\Orchard.WarmupStarter.dll
+E:\Orchard\www.showdigs.co.uk\src\Orchard.WarmupStarter\bin\Release\Orchard.WarmupStarter.pdb
+E:\Orchard\www.showdigs.co.uk\src\Orchard.WarmupStarter\obj\Release\Orchard.WarmupStarter.csprojResolveAssemblyReference.cache
+E:\Orchard\www.showdigs.co.uk\src\Orchard.WarmupStarter\obj\Release\Orchard.WarmupStarter.dll
+E:\Orchard\www.showdigs.co.uk\src\Orchard.WarmupStarter\obj\Release\Orchard.WarmupStarter.pdb

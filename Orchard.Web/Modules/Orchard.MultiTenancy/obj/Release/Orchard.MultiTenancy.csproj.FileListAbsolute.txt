@@ -1,0 +1,6 @@
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll.config
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.pdb
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Release\Orchard.MultiTenancy.csprojResolveAssemblyReference.cache
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Release\Orchard.MultiTenancy.dll
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Release\Orchard.MultiTenancy.pdb
