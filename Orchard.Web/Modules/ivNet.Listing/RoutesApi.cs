@@ -30,7 +30,7 @@ namespace ivNet.Listing
                     RouteTemplate = "api/listing/{controller}/{id}",
                     Defaults = new
                     {
-                        area = "ivNet.Club",
+                        area = "ivNet.Listing",
                         id = System.Web.Http.RouteParameter.Optional
                     }
                 },

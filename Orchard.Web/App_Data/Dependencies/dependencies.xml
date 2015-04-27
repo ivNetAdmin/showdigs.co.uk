@@ -83,8 +83,8 @@
   </Dependency>
   <Dependency>
     <ModuleName>ivNet.Mail</ModuleName>
-    <VirtualPath>~/Modules/ivNet.Mail/ivNet.Mail.csproj</VirtualPath>
-    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/ivNet.Mail/bin/ivNet.Mail.dll</VirtualPath>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <References>
       <Reference>
         <Name>Orchard.Email</Name>
@@ -153,8 +153,8 @@
       </Reference>
       <Reference>
         <Name>ivNet.Mail</Name>
-        <LoaderName>DynamicExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/ivNet.Mail/ivNet.Mail.csproj</VirtualPath>
+        <LoaderName>PrecompiledExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/ivNet.Mail/bin/ivNet.Mail.dll</VirtualPath>
       </Reference>
       <Reference>
         <Name>Orchard.Email</Name>

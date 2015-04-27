@@ -1,4 +1,5 @@
 ﻿
+using System.Collections.Generic;
 using FluentNHibernate.Mapping;
 
 namespace ivNet.Listing.Entities
@@ -15,11 +16,13 @@ namespace ivNet.Listing.Entities
 
         public virtual AddressDetail AddressDetail { get; set; }
         public virtual ContactDetail ContactDetail { get; set; }
+        public virtual IList<ListingDetail> Listings { get; set; }
 
         public virtual void Init()
         {
             AddressDetail = new AddressDetail();
             ContactDetail = new ContactDetail();
+            Listings = new List<ListingDetail>();
         }
     }
 
@@ -45,6 +48,10 @@ namespace ivNet.Listing.Entities
             Map(x => x.CreateDate).Not.Nullable();
             Map(x => x.ModifiedBy).Not.Nullable().Length(50);
             Map(x => x.ModifiedDate).Not.Nullable();
+
+            HasMany(x => x.Listings)
+              .Inverse()
+              .Cascade.All();
         }
     }
 }

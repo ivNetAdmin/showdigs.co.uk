@@ -1,0 +1,9 @@
+﻿.bootstrap-tagsinput {
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+
+.bootstrap-tagsinput input{
+    display:none !important;
+}

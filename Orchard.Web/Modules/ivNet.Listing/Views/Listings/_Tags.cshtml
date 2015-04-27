@@ -1,0 +1,33 @@
+﻿<div class="form-horizontal">
+    <div class="col-md-offset-2 col-md-12">
+        <h4>Tags</h4>
+        <hr />
+    </div>
+  
+    <div class="form-group">
+        <div class="form-group">
+            <label class="control-label col-md-4" for="Tag">Tag</label>
+            <div class="col-md-8">
+                <select ng-options="tag.Name as tag.Name for tag in tagList"
+                        ng-model="tag"
+                        id="Tag">
+                    <option value="">Select</option>
+                </select>
+            </div>
+        </div>
+    </div>
+  
+    <div class="col-md-offset-2 col-md-10">
+        <div class="form-group">
+            <div class="col-md-12">
+                <input type="button" value="Add Tag" class="btn btn-default" ng-click="addTag()">
+            </div>          
+        </div>
+    </div>
+    
+    <div class="col-md-offset-2 col-md-10">
+        <div class="form-group">                       
+            <input id="tagList" data-role="tagsinput">
+        </div>
+    </div>
+</div>

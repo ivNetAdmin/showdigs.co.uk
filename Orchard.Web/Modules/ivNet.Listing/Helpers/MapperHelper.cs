@@ -24,5 +24,22 @@ namespace ivNet.Listing.Helpers
         }
 
         #endregion
+
+        #region entities->models
+        public static ListingDetailViewModel Map(ListingDetailViewModel viewModel, ListingDetail entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
+        public static ListingCategoryViewModel Map(ListingCategoryViewModel viewModel, Category entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
+        public static ListingPackageViewModel Map(ListingPackageViewModel viewModel, PaymentPackage entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+        #endregion
     }
 }

@@ -67,6 +67,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\delete.gif" />
     <Content Include="Content\favicon.ico" />
     <Content Include="Styles\theme.min.css" />
     <Content Include="Web.config" />

@@ -1,0 +1,51 @@
+﻿<div class="form-horizontal col-md-12">
+    <div class="col-md-offset-2 col-md-12">
+        <h4>Rooms</h4>
+        <hr />
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label class="control-label col-md-4" for="RoomType">Type</label>
+            <div class="col-md-8">
+                <select ng-options="room.Type as room.Type for room in roomTypeList"
+                        ng-model="roomType"
+                        id="RoomType">
+                    <option value="">Select</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label class="control-label col-md-4" for="RoomDescription">Description</label>
+            <div class="col-md-8">
+                <textarea class="form-control text-box multi-line" rows="3" ng-model="roomDescription" id="RoomDescription"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-offset-2 col-md-10">
+        <div class="form-group">
+
+            <div class="col-md-10">
+                <input type="button" value="Add Room" class="btn btn-default" ng-click="addRoom()">
+            </div>
+            <div class="col-md-2">
+                <img src="/Themes/ivNet.ShowDigs/Content/delete.gif" class="btn btn-danger" alt="delete" title="delete room" ng-click="removeRoom()" />
+            </div>
+        </div>
+    </div>
+    <div class="col-md-offset-2 col-md-10">
+        <div class="form-group">
+            <table tr-ng-grid='' items='roomList'
+                   selected-items="roomSelectedItems"
+                   enable-multi-row-selections="true" enable-selections="true"
+                   enable-filtering="false" enable-sorting="false">
+                <thead>
+                <th field-name="Id" display-name="" display-align="right"></th>
+                <th field-name="RoomType" display-name="Room Type"></th>
+                <th field-name="Description" display-name="Description"></th>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>

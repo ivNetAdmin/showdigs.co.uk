@@ -59,6 +59,24 @@ namespace ivNet.Listing
                             {"area", "ivNet.Listing"}
                         },
                         new MvcRouteHandler())
+                },
+                 new RouteDescriptor
+                {
+                     Route = new Route(
+                        "owner/uploadfiles/{id}",
+                        new RouteValueDictionary
+                        {
+                            {"area", "ivNet.Listing"},
+                            {"controller", "SecureSite"},
+                            {"action", "UploadFiles"},
+                            {"id", UrlParameter.Optional}
+                        },
+                        new RouteValueDictionary(),
+                        new RouteValueDictionary
+                        {
+                            {"area", "ivNet.Listing"}
+                        },
+                        new MvcRouteHandler())
                 }
             };
         }

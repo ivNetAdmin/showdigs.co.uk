@@ -34,6 +34,6 @@ namespace ivNet.Listing.Service
             if (entity.Id != 0) return;
             entity.CreatedBy = currentUser;
             entity.CreateDate = DateTime.Now;
-        }
+        }        
     }
 }

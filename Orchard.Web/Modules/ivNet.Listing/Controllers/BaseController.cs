@@ -12,6 +12,5 @@ namespace ivNet.Listing.Controllers
             base.Initialize(requestContext);
             ActionName = requestContext.RouteData.Values["action"].ToString();
         }
-
     }
 }

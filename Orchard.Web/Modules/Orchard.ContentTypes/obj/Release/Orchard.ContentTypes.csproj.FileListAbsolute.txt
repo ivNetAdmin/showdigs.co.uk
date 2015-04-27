@@ -46,3 +46,4 @@ E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.ContentTypes\bin\S
 E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.ContentTypes\bin\System.Net.Http.Formatting.xml
 E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.ContentTypes\obj\Release\Orchard.ContentTypes.dll
 E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.ContentTypes\obj\Release\Orchard.ContentTypes.pdb
+E:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\Orchard.ContentTypes\obj\Release\Orchard.ContentTypes.csprojResolveAssemblyReference.cache
