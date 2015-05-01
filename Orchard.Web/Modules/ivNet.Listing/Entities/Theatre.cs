@@ -9,12 +9,6 @@ namespace ivNet.Listing.Entities
         public virtual string Distance { get; set; }
         public virtual string Town { get; set; }
         public virtual string Transport { get; set; }
-        public virtual ListingDetail ListingDetail { get; set; }
-
-        public virtual void Init()
-        {
-            ListingDetail = new ListingDetail();
-        }
     }
 
     public class TheatreMap : ClassMap<Theatre>
@@ -27,8 +21,6 @@ namespace ivNet.Listing.Entities
             Map(x => x.Distance).Not.Nullable().Length(255); 
             Map(x => x.Town).Nullable().Length(50);            
             Map(x => x.Transport).Nullable().Length(50);
-
-            References(x => x.ListingDetail);
         }
     }
 }

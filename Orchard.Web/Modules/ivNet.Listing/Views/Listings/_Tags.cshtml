@@ -1,9 +1,9 @@
-﻿<div class="form-horizontal">
-    <div class="col-md-offset-2 col-md-12">
-        <h4>Tags</h4>
+﻿<div class="form-horizontal col-md-12 owner-detail">
+    <div class="col-md-12">
+        <h4>Tags <i class="btn icon-info info-colour" data-toggle="tooltip" data-placement="right" data-original-title="{{help_tags}} "></i></h4>
         <hr />
     </div>
-  
+
     <div class="form-group">
         <div class="form-group">
             <label class="control-label col-md-4" for="Tag">Tag</label>
@@ -16,18 +16,19 @@
             </div>
         </div>
     </div>
-  
+
     <div class="col-md-offset-2 col-md-10">
         <div class="form-group">
             <div class="col-md-12">
-                <input type="button" value="Add Tag" class="btn btn-default" ng-click="addTag()">
-            </div>          
+                <input type="button" value="Add Tag" class="btn btn-primary" ng-click="addTag()">
+            </div>
         </div>
     </div>
-    
+
     <div class="col-md-offset-2 col-md-10">
-        <div class="form-group">                       
-            <input id="tagList" data-role="tagsinput">
+        <div class="form-group">
+            <input id="tagList" name="TagList" data-role="tagsinput">
         </div>
     </div>
+
 </div>

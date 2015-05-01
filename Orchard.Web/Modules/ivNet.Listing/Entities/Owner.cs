@@ -19,9 +19,7 @@ namespace ivNet.Listing.Entities
         public virtual IList<ListingDetail> Listings { get; set; }
 
         public virtual void Init()
-        {
-            AddressDetail = new AddressDetail();
-            ContactDetail = new ContactDetail();
+        {          
             Listings = new List<ListingDetail>();
         }
     }

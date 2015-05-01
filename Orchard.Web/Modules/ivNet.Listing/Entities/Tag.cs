@@ -6,12 +6,7 @@ namespace ivNet.Listing.Entities
     public class Tag : BaseEntity
     {
         public virtual string Name { get; set; }
-        public virtual ListingDetail ListingDetail { get; set; }
-
-        public virtual void Init()
-        {
-            ListingDetail = new ListingDetail();          
-        }
+      
     }
 
     public class TagMap : ClassMap<Tag>
@@ -21,8 +16,6 @@ namespace ivNet.Listing.Entities
             Id(x => x.Id);
 
             Map(x => x.Name).Not.Nullable().Length(50);
-
-            References(x => x.ListingDetail);
         }
     }
 }

@@ -8,14 +8,8 @@ namespace ivNet.Listing.Entities
         public virtual string Alt { get; set; }
         public virtual string ThumbUrl { get; set; }
         public virtual string LargeUrl { get; set; }
-        public virtual int DisplayOrder { get; set; }
-
-        public virtual ListingDetail ListingDetail { get; set; }
-
-        public virtual void Init()
-        {
-            ListingDetail = new ListingDetail();
-        }
+        public virtual int DisplayOrder { get; set; }    
+      
     }
 
     public class ImageMap : ClassMap<Image>
@@ -28,8 +22,6 @@ namespace ivNet.Listing.Entities
             Map(x => x.ThumbUrl).Not.Nullable().Length(255);
             Map(x => x.LargeUrl).Not.Nullable().Length(255);
             Map(x => x.DisplayOrder).Not.Nullable();
-
-            References(x => x.ListingDetail);
         }
 
     }

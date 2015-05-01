@@ -1,0 +1,604 @@
+2015-04-30 09:29:56,119 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 12:14:36,165 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 13:34:36,613 [7] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:36,628 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 13:34:36,680 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.Listing"
+2015-04-30 13:34:46,633 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:47,655 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:47,741 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:47,797 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:47,855 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,111 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,168 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,222 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,301 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,358 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,411 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,469 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,523 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,582 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,634 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,700 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,763 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,822 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:48,908 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,062 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,127 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,187 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,251 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,325 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,385 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,445 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,538 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,624 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,697 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,763 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,822 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,882 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:49,959 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:50,018 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:50,078 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:50,205 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:53,108 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:53,154 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:53,195 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:34:53,236 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:35:04,805 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:35:05,245 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:35:05,319 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:35:05,380 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:35:05,455 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:35:05,523 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:35:05,590 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Models\ListingDetailViewModel.cs(13): error CS1597: Semicolon after method or accessor block is not valid
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-04-30 13:35:29,136 [6] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: A 'stylesheet' named 'jQuery.FileUpload' could not be found.
+   at Orchard.UI.Resources.ResourceManager.BuildRequiredResources(String resourceType) in e:\Orchard\www.showdigs.co.uk\src\Orchard\UI\Resources\ResourceManager.cs:line 263
+   at Orchard.Core.Shapes.CoreShapes.WriteResources(Object Display, TextWriter Output, String resourceType, Nullable`1 includeLocation, Nullable`1 excludeLocation) in e:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 394
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object , TextWriter , String , Object , Object )
+   at Orchard.Core.Shapes.CoreShapes.StylesheetLinks(Object Display, TextWriter Output) in e:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 346
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.PerformInvoke(DisplayContext displayContext, MethodInfo methodInfo, Object serviceInstance) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:line 64
+   at Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.<>c__DisplayClass4.<CreateDelegate>b__3(DisplayContext context) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:line 55
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at Orchard.Core.Shapes.CoreShapes.DocumentZone(Object Display, Object Shape, TextWriter Output) in e:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 280
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.PerformInvoke(DisplayContext displayContext, MethodInfo methodInfo, Object serviceInstance) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:line 64
+   at Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.<>c__DisplayClass4.<CreateDelegate>b__3(DisplayContext context) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:line 55
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at ASP._Page_Themes_PJS_Bootstrap_Views_Document_cshtml.Execute() in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Themes\PJS.Bootstrap\Views\Document.cshtml:line 22
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.Render(ShapeDescriptor shapeDescriptor, DisplayContext displayContext, HarvestShapeInfo harvestShapeInfo, HarvestShapeHit harvestShapeHit) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 151
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.<>c__DisplayClass26.<>c__DisplayClass28.<Discover>b__15(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 133
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 104
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in e:\Orchard\www.showdigs.co.uk\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.<>c__DisplayClass7.<FindView>b__5(ViewContext viewContext, TextWriter writer, IViewDataContainer viewDataContainer) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 63
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.LayoutView.Render(ViewContext viewContext, TextWriter writer) in e:\Orchard\www.showdigs.co.uk\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 90
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-04-30 13:39:47,221 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 13:48:17,773 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 14:17:54,214 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 14:20:59,660 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 14:21:31,885 [7] NHibernate.Tool.hbm2ddl.SchemaUpdate - (null) - Unsuccessful: alter table ivNetListingDetail add ListingKey NVARCHAR(50)
+System.Data.SqlServerCe.SqlCeException (0x80004005): A column ID occurred more than once in the specification.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at NHibernate.Tool.hbm2ddl.SchemaUpdate.Execute(Action`1 scriptAction, Boolean doUpdate) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Tool\hbm2ddl\SchemaUpdate.cs:line 190
+2015-04-30 14:21:31,947 [8] NHibernate.Tool.hbm2ddl.SchemaUpdate - (null) - Unsuccessful: alter table ivNetListingDetail add ListingKey NVARCHAR(50)
+System.Data.SqlServerCe.SqlCeException (0x80004005): A column ID occurred more than once in the specification.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at NHibernate.Tool.hbm2ddl.SchemaUpdate.Execute(Action`1 scriptAction, Boolean doUpdate) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Tool\hbm2ddl\SchemaUpdate.cs:line 190
+2015-04-30 15:04:17,944 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 15:07:58,364 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 15:09:25,177 [7] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 216.58.210.74:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at ivNet.Listing.Service.OwnerServices.AddListing(Int32 ownerId, EditListingViewModel model) in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Service\OwnerServices.cs:line 52
+   at ivNet.Listing.Controllers.SecureSiteController.AddListing(EditListingViewModel model) in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Controllers\SecureSiteController.cs:line 48
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+2015-04-30 15:14:55,734 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 15:41:40,234 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 15:53:35,145 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 16:07:02,497 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 16:10:51,515 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 16:27:47,428 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 16:40:24,811 [5] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 16:50:12,807 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 16:54:47,877 [9] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 16:55:44,879 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 17:20:45,152 [5] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-30 17:21:41,496 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"

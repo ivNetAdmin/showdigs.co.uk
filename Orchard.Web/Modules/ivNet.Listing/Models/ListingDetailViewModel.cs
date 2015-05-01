@@ -8,6 +8,6 @@ namespace ivNet.Listing.Models
         public string PostCode { get; set; }
         public string PaymentPackageName { get; set; }
         public DateTime PaymentPackageExpiraryDate { get; set; }
-        public string Address { get; set; }
+        public string Address { get; set; }        
     }
 }

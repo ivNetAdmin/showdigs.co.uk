@@ -1,14 +1,14 @@
 ﻿
 @{
-    Script.Require("jQuery.FileUpload");
-    Script.Require("Bootstrap.TagsInput"); 
     Script.Require("jQuery.Validate.Unobtrusive");
+    Script.Require("jQuery.FileUpload");
+    Script.Require("Bootstrap.TagsInput");
+    Script.Require("CKEditor");    
     Script.Require("ivNet.Listings");    
     
     Style.Require("jQuery.FileUpload");
     Style.Require("Bootstrap.TagsInput");
-    Style.Require("ivNet.Listing");
-    
+    Style.Require("ivNet.Listing");    
 }
 
 <div id="ListingsGrid" data-ng-app="ivNet.Listings">
@@ -33,14 +33,15 @@
 
                 <div class="col-md-6">
                     @Html.Partial("Listings/_PaymentPackage")                    
+                    @Html.Partial("Listings/_Description")                    
                     @Html.Partial("Listings/_AddressDetails")
-                    @Html.Partial("Listings/_Tags")
-                    @Html.Partial("Listings/_FileUpload")
+                    @Html.Partial("Listings/_FileUpload")                    
                 </div>
 
                 <div class="col-md-6">
-                    @Html.Partial("Listings/_Rooms")    
+                    @Html.Partial("Listings/_Rooms")                                   
                     @Html.Partial("Listings/_LocalTheatres")
+                    @Html.Partial("Listings/_Tags")                    
                 </div>
             }
         </section>

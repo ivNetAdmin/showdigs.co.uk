@@ -21,6 +21,8 @@ namespace ivNet.Listing
             manifest.DefineScript("Bootstrap.TagsInput.Anjular").SetUrl("ivNet/anjularJs/bootstrap-tagsinput-angular.min.js").SetDependencies("AngularJS");           
             manifest.DefineScript("Bootstrap.TagsInput").SetUrl("ivNet/anjularJs/bootstrap-tagsinput.min.js").SetDependencies("Bootstrap.TagsInput.Anjular");
 
+            manifest.DefineScript("CKEditor").SetUrl("ivNet/ckeditor/ckeditor.js").SetDependencies("jQueryUI");
+
             manifest.DefineScript("ivNet.Listing.Registration").SetUrl("ivNet/listing.registration.min.js").SetVersion("1.0").SetDependencies("jQuery.Validate.Unobtrusive");
 
             manifest.DefineScript("ivNet.Listings")
@@ -28,8 +30,10 @@ namespace ivNet.Listing
                 .SetVersion("1.0")
                 .SetDependencies("trNgGrid");
 
+            manifest.DefineStyle("Font-Awesome").SetUrl("ivNet/Styles/font-awesome.min.css");
+            manifest.DefineStyle("Bootstrap").SetUrl("ivNet/Styles/bootstrap.min.css").SetDependencies("Font-Awesome");
             manifest.DefineStyle("jQuery.FileUpload").SetUrl("ivNet/Styles/jquery.fileupload.css");
-            manifest.DefineStyle("Bootstrap.TagsInput").SetUrl("ivNet/Styles/bootstrap-tagsinput.css");
+            manifest.DefineStyle("Bootstrap.TagsInput").SetUrl("ivNet/Styles/bootstrap-tagsinput.css").SetDependencies("Bootstrap");
             manifest.DefineStyle("ivNet.Listing").SetUrl("ivNet/Styles/ivNet.Listing.min.css");
         }
     }

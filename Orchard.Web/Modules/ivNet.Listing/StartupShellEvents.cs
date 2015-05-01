@@ -14,7 +14,7 @@ namespace ivNet.Listing
 
             Mapper.CreateMap<RegistrationViewModel, Owner>();
             Mapper.CreateMap<RegistrationViewModel, AddressDetail>();
-            Mapper.CreateMap<RegistrationViewModel, ContactDetail>();
+            Mapper.CreateMap<RegistrationViewModel, ContactDetail>();  
 
             #endregion
 
@@ -28,10 +28,10 @@ namespace ivNet.Listing
                     e.AddressDetail.Address1,
                     string.IsNullOrEmpty(e.AddressDetail.Address2) ? string.Empty : string.Format(" {0}", e.AddressDetail.Address2),
                     e.AddressDetail.Town
-                    )));
+                    )));            
 
             Mapper.CreateMap<Category, ListingCategoryViewModel>();
-            Mapper.CreateMap<PaymentPackage, ListingPackageViewModel>();
+            Mapper.CreateMap<PaymentPackage, ListingPackageViewModel>();       
 
             #endregion
         }

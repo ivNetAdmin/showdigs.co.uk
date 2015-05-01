@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using ivNet.Listing.Helpers;
+﻿using ivNet.Listing.Helpers;
 using ivNet.Listing.Models;
 using ivNet.Listing.Service;
 using Orchard;
 using Orchard.Localization;
 using Orchard.Logging;
 using Orchard.Security;
+using System;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.Mvc;
 
 namespace ivNet.Listing.Controllers
 {
@@ -39,11 +37,16 @@ namespace ivNet.Listing.Controllers
         public ILogger Logger { get; set; }
 
         [HttpPost]
-        public ActionResult AddListing(ListingDetailViewModel model)
+        public ActionResult AddListing(EditListingViewModel model)
         {
             if (!_orchardServices.Authorizer.Authorize(Permissions.ivOwnerTab, T("You are not authorized")))
                 Response.Redirect("/Users/Account/AccessDenied?ReturnUrl=/");
 
+            var ownerKey = CustomStringHelper.BuildKey(new[] { CurrentUser.Email });
+            var ownerId = _ownerServices.GetOwnerIdByKey(ownerKey);
+       
+            _ownerServices.AddListing(ownerId, model);
+            
             const string returnUrl = "/owner/my-listings";
             return Redirect(returnUrl);
         }

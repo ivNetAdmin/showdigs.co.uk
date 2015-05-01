@@ -8,7 +8,8 @@ using NHibernate.Proxy;
 namespace ivNet.Listing.Entities
 {
     public class ListingDetail : BaseEntity
-    {        
+    {
+        public virtual string ListingKey { get; set; }
         public virtual string Description { get; set; }
         public virtual DateTime ExpiraryDate { get; set; }
 
@@ -23,12 +24,7 @@ namespace ivNet.Listing.Entities
         public virtual IList<Room> Rooms { get; set; }
 
         public virtual void Init()
-        {
-            Owner = new Owner();
-            AddressDetail = new AddressDetail();
-            Category = new Category();
-            Location = new Location();
-            PaymentPackage = new PaymentPackage();
+        {           
             Tags = new List<Tag>();
             Images = new List<Image>();
             Theatres = new List<Theatre>();
@@ -42,6 +38,7 @@ namespace ivNet.Listing.Entities
         {
             Id(x => x.Id);
 
+            Map(x => x.ListingKey).Not.Nullable().Length(50);
             Map(x => x.Description).Not.Nullable().Length(4500);
             Map(x => x.ExpiraryDate).Not.Nullable();
 

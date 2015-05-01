@@ -17,12 +17,12 @@ namespace ivNet.Listing.Helpers
         {
             return Mapper.Map(viewModel, entity);
         }
-
+      
         public static ContactDetail Map(ContactDetail entity, RegistrationViewModel viewModel)
         {
             return Mapper.Map(viewModel, entity);
         }
-
+        
         #endregion
 
         #region entities->models
@@ -41,5 +41,6 @@ namespace ivNet.Listing.Helpers
             return Mapper.Map(entity, viewModel);
         }
         #endregion
-    }
+
+   }
 }

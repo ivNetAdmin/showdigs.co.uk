@@ -1,0 +1,36 @@
+2015-04-28 09:14:08,775 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-28 15:20:57,606 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-28 15:29:28,721 [10] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-28 15:31:32,571 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-28 16:39:20,431 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-28 16:41:49,403 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-28 16:50:03,313 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-04-28 16:51:09,417 [13] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'ivNet.Listing.Models.RoomViewModel' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at ivNet.Listing.Controllers.SecureSiteController.AddListing(ListingDetailViewModel model) in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Controllers\SecureSiteController.cs:line 48
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+2015-04-28 16:51:33,895 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
