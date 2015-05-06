@@ -40,7 +40,33 @@ namespace ivNet.Listing.Helpers
         {
             return Mapper.Map(entity, viewModel);
         }
+
+        public static EditListingViewModel Map(EditListingViewModel viewModel, ListingDetail entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
+        public static RoomViewModel Map(RoomViewModel viewModel, Room entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
+        public static TheatreViewModel Map(TheatreViewModel viewModel, Theatre entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
+        public static ImageViewModel Map(ImageViewModel viewModel, Image entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
+        public static TagViewModel Map(TagViewModel viewModel, Tag entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
         #endregion
 
-   }
+    }
 }

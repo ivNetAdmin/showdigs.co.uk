@@ -18,8 +18,7 @@
             <div class="col-md-offset-11 col-md-12">
                 <input type="button" value="Add" class="btn btn-info" ng-click="addListing()">
             </div>
-
-            <table tr-ng-grid='' items='listings' enable-filtering="false" enable-sorting="false"></table>
+            @Html.Partial("Listings/_List")           
         </section>
 
         <section id="listingEdit">
@@ -33,8 +32,8 @@
 
                 <div class="col-md-6">
                     @Html.Partial("Listings/_PaymentPackage")                    
-                    @Html.Partial("Listings/_Description")                    
                     @Html.Partial("Listings/_AddressDetails")
+                    @Html.Partial("Listings/_Description")                                        
                     @Html.Partial("Listings/_FileUpload")                    
                 </div>
 

@@ -6,7 +6,7 @@
     <div class="form-group">
         <label class="control-label col-md-2" for="Package">Package</label>
         <div class="col-md-10">
-            <select ng-options="package as package.Name for package in packages track by package.Id"
+            <select ng-options="package.Name for package in packages track by package.Id"
                     data-val="true"
                     data-val-required="Package is required."
                     ng-model="package"

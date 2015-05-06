@@ -436,6 +436,7 @@
     <Content Include="Views\Listings\_Tags.cshtml" />
     <Content Include="Views\Listings\_FileUpload.cshtml" />
     <Content Include="Views\Listings\_Description.cshtml" />
+    <Content Include="Views\Listings\_List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Orchard.Core">
@@ -479,6 +480,7 @@
     <Compile Include="Models\ListingPackageViewModel.cs" />
     <Compile Include="Models\RegistrationViewModel.cs" />
     <Compile Include="Models\RoomViewModel.cs" />
+    <Compile Include="Models\TagViewModel.cs" />
     <Compile Include="Models\TheatreViewModel.cs" />
     <Compile Include="Models\UploadFilesResult.cs" />
     <Compile Include="Permissions.cs" />

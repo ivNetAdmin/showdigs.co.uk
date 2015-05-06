@@ -1,0 +1,57 @@
+2015-05-06 10:34:15,984 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 10:50:47,827 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 10:53:57,984 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 10:57:20,284 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 10:59:22,939 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 11:06:08,698 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 11:10:17,522 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 11:14:11,501 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 11:16:04,466 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 11:19:25,538 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 11:26:54,215 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 11:46:28,423 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 12:30:38,977 [23] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement, Boolean validateImageData)
+   at ivNet.Listing.Helpers.ImageHelper.UploadImage(HttpPostedFileBase file, String fileName, String filePath, Int32 width, Int32 height) in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Helpers\ImageHelper.cs:line 16
+   at ivNet.Listing.Controllers.SecureSiteController.UploadFiles() in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Controllers\SecureSiteController.cs:line 78
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+2015-05-06 13:40:39,115 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 15:05:47,641 [8] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 15:14:07,683 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 15:16:40,478 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 15:21:48,184 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 15:28:15,785 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-06 16:32:30,032 [11] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.NotImplementedException: The method or operation is not implemented.
+   at ivNet.Listing.Service.OwnerServices.DeleteTheatres(ISession session, Int32 id) in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Service\OwnerServices.cs:line 248
+   at ivNet.Listing.Service.OwnerServices.AddListing(Int32 ownerId, EditListingViewModel model) in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Service\OwnerServices.cs:line 151
+   at ivNet.Listing.Controllers.SecureSiteController.AddListing(EditListingViewModel model) in f:\Orchard\www.showdigs.co.uk\src\Orchard.Web\Modules\ivNet.Listing\Controllers\SecureSiteController.cs:line 48
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()
+2015-05-06 16:32:53,802 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"

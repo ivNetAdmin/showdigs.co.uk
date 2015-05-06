@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Xml.Linq;
+using System.Xml.XPath;
 using ivNet.Listing.Entities;
 using ivNet.Listing.Helpers;
 using ivNet.Listing.Models;
 using Newtonsoft.Json;
+using NHibernate;
 using Orchard;
 using Orchard.Security;
 
@@ -80,12 +82,26 @@ namespace ivNet.Listing.Service
                                  new Location();
 
                     // get geolocation from postcode
-                    //var requestUri = string.Format("http://maps.googleapis.com/maps/api/geocode/xml?address={0}&sensor=false", Uri.EscapeDataString(model.Postcode));
-                    //var request = WebRequest.Create(requestUri);
-                    //var response = request.GetResponse();
-                    //var xdoc = XDocument.Load(response.GetResponseStream());
+                    long lat = 0;
+                    long lng = 0;
+                    try
+                    {
+                        var requestUri =
+                            string.Format("http://maps.googleapis.com/maps/api/geocode/xml?address={0}&sensor=false",
+                                Uri.EscapeDataString(model.Postcode));
+                        var request = WebRequest.Create(requestUri);
+                        var response = request.GetResponse();
+                        var xdoc = XDocument.Load(response.GetResponseStream());
+                        long.TryParse(xdoc.XPathSelectElement("GeocodeResponse/result/geometry/location/lat").Value,
+                            out lat);
+                        long.TryParse(xdoc.XPathSelectElement("GeocodeResponse/result/geometry/location/lng").Value,
+                            out lng);
+                    }
+                    catch{ }
 
                     location.Postcode = model.Postcode;
+                    location.Latitude = lat;
+                    location.Longitude = lng;
                     location.IsActive = 1;
                     
                     SetAudit(location);
@@ -97,7 +113,7 @@ namespace ivNet.Listing.Service
                            x.ListingKey.Equals(addressDetailKey)) ??
                                  new ListingDetail();
 
-                    if (listing.Id == 0) listing.Init();
+                    listing.Init();                    
 
                     listing.ExpiraryDate = DateTime.Now;
 
@@ -111,60 +127,85 @@ namespace ivNet.Listing.Service
                     listing.ListingKey = addressDetailKey;
                     listing.IsActive = 1;
 
+                    SetAudit(listing);
+                    listing.IsActive = 1;
+                    session.SaveOrUpdate(listing); 
+
                     // rooms
-                    var rooms = JsonConvert.DeserializeObject<List<RoomViewModel>>(model.Rooms);               
-                    foreach (var roomViewModel in rooms)
+                    DeleteRooms(session, listing.Id);
+                    if (!string.IsNullOrEmpty(model.Rooms))
                     {
-                        var room = new Room {Description = roomViewModel.Description, Type = roomViewModel.RoomType};
-                        SetAudit(room);
-                        room.IsActive = 1;
-                        session.SaveOrUpdate(room);       
-                        listing.Rooms.Add(room);
+                        var rooms = JsonConvert.DeserializeObject<List<RoomViewModel>>(model.Rooms);
+                        foreach (var roomViewModel in rooms)
+                        {
+                            var room = new Room {Description = roomViewModel.Description, Type = roomViewModel.RoomType};
+                            room.ListingDetail = listing;
+                            SetAudit(room);
+                            room.IsActive = 1;
+                            session.SaveOrUpdate(room);
+                            listing.Rooms.Add(room);
+                        }
                     }
 
                     // theatres
-                    var theatres = JsonConvert.DeserializeObject<List<TheatreViewModel>>(model.Theatres);
-                    foreach (var theatreViewModel in theatres)
+                    DeleteTheatres(session, listing.Id);
+                    if (!string.IsNullOrEmpty(model.Theatres))
                     {
-                        var theatre = new Theatre
+                        var theatres = JsonConvert.DeserializeObject<List<TheatreViewModel>>(model.Theatres);
+                        foreach (var theatreViewModel in theatres)
                         {
-                            Name = theatreViewModel.Name,
-                            Town = theatreViewModel.Town,
-                            Distance = theatreViewModel.Distance,
-                            Transport = theatreViewModel.Transport
-                        };
-                        SetAudit(theatre);
-                        theatre.IsActive = 1;
-                        session.SaveOrUpdate(theatre);       
-                        listing.Theatres.Add(theatre);
+                            var theatre = new Theatre
+                            {
+                                Name = theatreViewModel.Name,
+                                Town = theatreViewModel.Town,
+                                Distance = theatreViewModel.Distance,
+                                Transport = theatreViewModel.Transport
+                            };
+                            theatre.ListingDetail = listing;
+                            SetAudit(theatre);
+                            theatre.IsActive = 1;
+                            session.SaveOrUpdate(theatre);
+                            listing.Theatres.Add(theatre);
+                        }
                     }
 
                     // images
-                    var images = JsonConvert.DeserializeObject<List<ImageViewModel>>(model.Images);
-                    foreach (var imageViewModel in images)
+                    DeleteImages(session, listing.Id);
+                    if (!string.IsNullOrEmpty(model.Images))
                     {
-                        var image = new Image { Alt = "Owner Image", 
-                            ThumbUrl = imageViewModel.File,
-                                                LargeUrl = imageViewModel.File,
-                                                DisplayOrder = images.IndexOf(imageViewModel)
-                        };
-                        SetAudit(image);
-                        image.IsActive = 1;
-                        session.SaveOrUpdate(image);       
-                        listing.Images.Add(image);
+                        var images = JsonConvert.DeserializeObject<List<ImageViewModel>>(model.Images);
+                        foreach (var imageViewModel in images)
+                        {
+                            var image = new Image
+                            {
+                                Alt = "Owner Image",
+                                ThumbUrl = imageViewModel.File,
+                                LargeUrl = imageViewModel.File,
+                                DisplayOrder = images.IndexOf(imageViewModel)
+                            };
+                            image.ListingDetail = listing;
+                            SetAudit(image);
+                            image.IsActive = 1;
+                            session.SaveOrUpdate(image);
+                            listing.Images.Add(image);
+                        }
                     }
 
                     // tags
-                    var taglist = model.TagList.Split(',');
-                    foreach (var strTag in taglist)
+                    DeleteTags(session, listing.Id);
+                    if (!string.IsNullOrEmpty(model.Tags))
                     {
-                        var tag = new Tag { Name = strTag };
-                        SetAudit(tag);
-                        tag.IsActive = 1;
-                        session.SaveOrUpdate(tag);       
-                        listing.Tags.Add(tag);
+                        var taglist = model.Tags.Split(',');
+                        foreach (var strTag in taglist)
+                        {
+                            var tag = new Tag {Name = strTag};
+                            SetAudit(tag);
+                            tag.ListingDetail = listing;
+                            tag.IsActive = 1;
+                            session.SaveOrUpdate(tag);
+                            listing.Tags.Add(tag);
+                        }
                     }
-
                     SetAudit(listing);
                     listing.IsActive = 1;
                     session.SaveOrUpdate(listing); 
@@ -172,6 +213,50 @@ namespace ivNet.Listing.Service
                     transaction.Commit();
                 }
             }                                                
+        }
+
+        private void DeleteTags(ISession session, int id)
+        {
+            var tagList = session.CreateCriteria(typeof(Tag))
+                    .List<Tag>().Where(x => x.ListingDetail.Id.Equals(id));
+
+            foreach (var tag in tagList)
+            {
+                session.Delete(tag);
+            }
+        }
+
+        private void DeleteImages(ISession session, int id)
+        {
+            var imageList = session.CreateCriteria(typeof(Image))
+                    .List<Image>().Where(x => x.ListingDetail.Id.Equals(id));
+
+            foreach (var image in imageList)
+            {
+                session.Delete(image);
+            }
+        }
+
+        private void DeleteTheatres(ISession session, int id)
+        {
+            var theatreList = session.CreateCriteria(typeof(Theatre))
+                 .List<Theatre>().Where(x => x.ListingDetail.Id.Equals(id));
+
+            foreach (var theatre in theatreList)
+            {
+                session.Delete(theatre);
+            } 
+        }
+
+        private void DeleteRooms(ISession session, int id)
+        {
+            var roomList = session.CreateCriteria(typeof(Room))
+                    .List<Room>().Where(x => x.ListingDetail.Id.Equals(id));
+
+            foreach (var room in roomList)
+            {
+                session.Delete(room);
+            }
         }
     }
 }
